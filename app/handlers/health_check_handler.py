@@ -1,5 +1,5 @@
-from handlers.base_handler import BaseHandler
-from src.utils.log_handler import LogHandler
+from app.handlers.base_handler import BaseHandler
+from app.src.utils.log_handler import LogHandler
 
 log_handler = LogHandler(__name__)
 

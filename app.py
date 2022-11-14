@@ -1,6 +1,6 @@
+from app.server.server_runner import run_server
+from app.src.utils.log_handler import LogHandler
 from config import Config
-from server.server_runner import run_server
-from src.utils.log_handler import LogHandler
 
 log_handler = LogHandler(__name__)
 

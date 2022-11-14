@@ -2,8 +2,8 @@ import asyncio
 
 import tornado.ioloop
 
-from server.endpoints import App
-from src.utils.log_handler import LogHandler
+from app.server.endpoints import App
+from app.src.utils.log_handler import LogHandler
 
 log_handler = LogHandler(__name__)
 

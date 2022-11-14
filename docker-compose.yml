@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  tornado:
+    build:
+      context: .
+    env_file:
+      - .env
+    ports:
+      - '${SERVER_PORT:-8000}:${SERVER_PORT:-8000}'
+    healthcheck:
+      test: ["CMD", "curl", "-s", "-f", '--header "Authorization: Bearer ${SERVICE_TOKEN}"', "http://localhost:${SERVER_PORT}/api/v1/_health"]

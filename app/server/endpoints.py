@@ -1,7 +1,7 @@
 import tornado.web
 
+from app.handlers.health_check_handler import HealthCheckHandler
 from config import Config
-from handlers.health_check_handler import HealthCheckHandler
 
 
 class App(tornado.web.Application):
