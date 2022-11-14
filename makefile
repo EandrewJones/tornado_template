@@ -17,6 +17,10 @@ install-prod:
 .PHONY: install-dev
 install-dev:
 	python -m pip install -r requirements_dev.txt
+## Setup precommmit
+.PHONY: precommmit-setup
+precommit-setup:
+	pre-commit install
 ## Run all pre-commit hooks
 .PHONY: precommit
 precommit:
