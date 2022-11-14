@@ -1,0 +1,12 @@
+# Files
+.env
+nohup.out
+
+# Folders
+.vscode/
+.idea/
+__pycache__/
+.venv/
+venv/
+.venv-dev/
+venv-dev/
