@@ -1,13 +1,11 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=286px height=72px src="TornadoWebServerLogo.png" alt="Tornado logo"></a>
 </p>
 
-<h3 align="center">{{cookiecutter.project_name}}</h3>
+<h2 align="center">{{cookiecutter.project_name}}</h2>
 
 <div align="center">
-
-[![code coverage](coverage.svg "Code coverage")]()
 
 </div>
 
