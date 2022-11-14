@@ -5,9 +5,10 @@ requirements.txt
 requirements_dev.txt
 
 # Folders
-.vscode/
 .idea/
 __pycache__/
+.pytest_cache/
+.vscode/
 .venv/
 venv/
 .venv-dev/
