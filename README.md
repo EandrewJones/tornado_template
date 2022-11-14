@@ -1,13 +1,11 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=286px height=72px src="TornadoWebServerLogo.png" alt="Tornado Web Serer logo"></a>
 </p>
 
-<h3 align="center">Tornado Server Template</h3>
+<h2 align="center">API Template</h2>
 
 <div align="center">
-
-[![code coverage](coverage.svg "Code coverage")]()
 
 </div>
 
@@ -15,7 +13,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-This is a reusable template repository for getting production-ready, asynchronous Tornado API servers up and running, fast.
+This is a reusable template repository for getting a production-ready, Tornado web server up and running, fast.
 
 ## 🔖 Project structure
 
