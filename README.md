@@ -15,7 +15,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+This is a reusable template repository for getting production-ready, asynchronous Tornado API servers up and running, fast.
 
 ## 🔖 Project structure
 
@@ -40,7 +40,11 @@ tornado_template/
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+You can easily clone this repository to up and running.
+
+```bash
+$ git clone git@github.com:EandrewJonoes/tornado_template.git
+```
 
 ### Prerequisites
 
